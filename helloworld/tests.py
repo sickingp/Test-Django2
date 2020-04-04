@@ -26,4 +26,4 @@ class HelloWorldTestCase(TestCase):
         t = np.arange(0.0, 3.0, 0.01)
         s = np.sin(2*np.pi*t)
         a.plot(t, s)
-        fig.savefig('plot.svg')
+        fig.savefig('helloworld/static/helloworld/img/plot.svg')
