@@ -10,12 +10,12 @@ What's Here
 This sample includes:
 
 * README.md - this file
-* ebdjango/ - this directory contains your Django project files. Note that this
+* Test_Django2/ - this directory contains your Django project files. Note that this
   directory contains a Django config file (settings.py) that includes a pre-defined
   SECRET_KEY. Before running in a production environment, you should replace this
   application key with one you generate
   (see https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/#secret-key for details)
-* helloworld/ - this directory contains your Django application files
+* app/ - this directory contains your Django application files
 * manage.py - this Python script is used to start your Django web application
 * .ebextensions/ - this directory contains the Django configuration file that
   allows AWS Elastic Beanstalk to deploy your Django application
@@ -68,7 +68,7 @@ What Do I Do Next?
 
 Once you have a virtual environment running, you can start making changes to
 the sample Django web application. We suggest making a small change to
-/helloworld/templates/index.html first, so you can see how changes pushed to
+/app/templates/index.html first, so you can see how changes pushed to
 your project's repository are automatically picked up and deployed to the Amazon EC2
 instance by AWS Elastic Beanstalk. (You can watch the progress on your project dashboard.)
 Once you've seen how that works, start developing your own code, and have fun!

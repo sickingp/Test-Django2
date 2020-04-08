@@ -1,5 +1,5 @@
 from django.test import TestCase, RequestFactory
-from helloworld.views import HomePageView
+from app.views import HomePageView
 
 from matplotlib.figure import Figure
 
@@ -26,4 +26,4 @@ class HelloWorldTestCase(TestCase):
         t = np.arange(0.0, 3.0, 0.01)
         s = np.sin(2*np.pi*t)
         a.plot(t, s)
-        fig.savefig('helloworld/static/helloworld/img/plot.svg')
+        fig.savefig('app/static/app/img/plot.svg')

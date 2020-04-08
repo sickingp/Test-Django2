@@ -1,4 +1,4 @@
-"""ebdjango URL Configuration
+"""Test_Django2 URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.1/topics/http/urls/
@@ -20,5 +20,5 @@ from django.contrib import admin
 
 urlpatterns = [
    url(r'^admin/', admin.site.urls),
-   url(r'^', include('helloworld.urls')), 
+   url(r'^', include('app.urls')), 
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
