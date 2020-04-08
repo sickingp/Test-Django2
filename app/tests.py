@@ -26,4 +26,4 @@ class HelloWorldTestCase(TestCase):
         t = np.arange(0.0, 3.0, 0.01)
         s = np.sin(2*np.pi*t)
         a.plot(t, s)
-        fig.savefig(r'C:\Users\sicki\Google Drive\VSStudio Projects\Test-Django2\app\static\app\img\plot.svg')
+        fig.savefig('app/static/app/img/plot.svg')
