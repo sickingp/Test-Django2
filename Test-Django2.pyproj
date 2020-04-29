@@ -45,8 +45,12 @@
     <Compile Include="Test_Django2\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\Carolyn.html" />
     <Content Include="app\static\app\css\gradients.css" />
     <Content Include="app\static\app\css\styles.css" />
+    <Content Include="app\static\app\img\Carolyn.html" />
+    <Content Include="app\static\app\img\Carolyn2.html" />
+    <Content Include="app\static\app\img\Carolyn3.html" />
     <Content Include="app\static\app\img\tweet.svg" />
     <Content Include="app\static\app\js\set-background.js" />
     <Content Include="app\templates\index.html" />
